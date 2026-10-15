@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VALORANT Champions | Inscrições</title>
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+<body>
+
+    <header>
+        <h1>VALORANT <span>CHAMPIONS</span></h1>
+        <p>INSCRIÇÕES ABERTAS • TEMPORADA COMPETITIVA</p>
+    </header>
+
+    <img src="ValorantChampionsLogo.png" alt="Logo Valorant Champions" class="logo">
+
+    <main>
+        <section class="intro">
+            <h2>REGISTRO DE COMPETIDORES</h2>
+            <p>
+                Registre sua equipe e prepare-se para competir.
+                Preencha os dados abaixo para participar do processo
+                de inscrição do campeonato.
+            </p>
+        </section>
+
+        <form action="#" method="post">
+
+            <h3>01 — Dados do competidor</h3>
+
+            <div class="form-control">
+                <label for="nome">Nome completo</label>
+                <input type="text" id="nome" name="nome"
+                    placeholder="Seu nome completo" required>
+            </div>
+
+            <div class="form-control">
+                <label for="email">E-mail de contato</label>
+                <input type="email" id="email" name="email"
+                    placeholder="exemplo@email.com" required>
+            </div>
+
+            <div class="form-control">
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" name="telefone"
+                    placeholder="(11) 99999-9999" required>
+            </div>
+
+            <div class="form-control">
+                <label for="data">Data de nascimento</label>
+                <input type="date" id="data" name="data" required>
+            </div>
+
+            <div class="form-control">
+                <label for="senha">Senha de acesso</label>
+                <input type="password" id="senha" name="senha"
+                    placeholder="Crie uma senha" required>
+            </div>
+
+            <h3>02 — Perfil competitivo</h3>
+
+            <div class="form-control">
+                <label for="nick">Riot ID</label>
+                <input type="text" id="nick" name="nick"
+                    placeholder="Ex: InfinityXD#BR1" required>
+            </div>
+
+            <div class="form-control">
+                <label for="equipe">Nome da equipe</label>
+                <input type="text" id="equipe" name="equipe"
+                    placeholder="Nome oficial da sua equipe" required>
+            </div>
+
+            <div class="form-control">
+                <label for="elo">Elo atual</label>
+                <select id="elo" name="elo" required>
+                    <option value="">Selecione seu elo</option>
+                    <option value="ferro">Ferro</option>
+                    <option value="bronze">Bronze</option>
+                    <option value="prata">Prata</option>
+                    <option value="ouro">Ouro</option>
+                    <option value="platina">Platina</option>
+                    <option value="diamante">Diamante</option>
+                    <option value="ascendente">Ascendente</option>
+                    <option value="imortal">Imortal</option>
+                    <option value="radiante">Radiante</option>
+                </select>
+            </div>
+
+            <div class="form-control">
+                <label for="funcao">Função principal</label>
+                <select id="funcao" name="funcao" required>
+                    <option value="">Selecione sua função</option>
+                    <option value="duelista">Duelista</option>
+                    <option value="iniciador">Iniciador</option>
+                    <option value="controlador">Controlador</option>
+                    <option value="sentinela">Sentinela</option>
+                </select>
+            </div>
+
+            <div class="form-control">
+                <label for="agente">Agente principal</label>
+                <input type="text" id="agente" name="agente"
+                    placeholder="Ex: Jett, Sova, Omen..." required>
+            </div>
+
+            <div class="form-control">
+                <label for="regiao">Região competitiva</label>
+                <select id="regiao" name="regiao" required>
+                    <option value="">Selecione a região</option>
+                    <option value="brasil">Brasil</option>
+                    <option value="americas">Américas</option>
+                    <option value="emea">EMEA</option>
+                    <option value="pacifico">Pacífico</option>
+                </select>
+            </div>
+
+            <div class="form-control">
+                <label for="disponibilidade">Disponibilidade para os jogos</label>
+                <select id="disponibilidade" name="disponibilidade" required>
+                    <option value="">Selecione sua disponibilidade</option>
+                    <option value="semana">Durante a semana</option>
+                    <option value="fim-semana">Finais de semana</option>
+                    <option value="ambos">Semana e finais de semana</option>
+                    <option value="flexivel">Horários flexíveis</option>
+                </select>
+            </div>
+
+            <div class="form-control">
+                <button type="submit">SOLICITAR INSCRIÇÃO</button>
+            </div>
+
+            <p class="aviso">
+                Projeto demonstrativo de campeonato não oficial.
+            </p>
+
+        </form>
+    </main>
+
+    <footer>
+        <p>VALORANT CHAMPIONS • COMPETIÇÃO • ESTRATÉGIA • SUPERAÇÃO</p>
+    </footer>
+
+</body>
+</html>
